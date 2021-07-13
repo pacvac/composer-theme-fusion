@@ -1,5 +1,5 @@
 {
-    "name": "szepeviktor/composer-theme-fusion",
+    "name": "pacvac/composer-theme-fusion",
     "type": "composer-plugin",
     "description": "Composer plugin for ThemeFusion",
     "keywords": [
@@ -10,13 +10,13 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1",
-        "composer-plugin-api": "^1.1",
-        "composer/installers": "^1.8",
+        "php": "^7.4 || ^8.0",
+        "composer-plugin-api": "^2.0",
+        "composer/installers": "^1.10",
         "szepeviktor/composer-envato": "^0.1.2"
     },
     "require-dev": {
-        "composer/composer": "^1.10.22",
+        "composer/composer": "^2.0.8",
         "phpstan/phpstan": "^0.12"
     },
     "extra": {
